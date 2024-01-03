@@ -10,8 +10,7 @@ if conta == "+":
     linha_2 = conta_numero_1 + conta_numero_2
     print(linha_1)
     print(f"{linha_2:.2f}")
-
-if conta == "-":
+elif conta == "-":
     linha_1 = (f"A subtração de {conta_numero_1:.2f} com {conta_numero_2:.2f} é: ")
     linha_2 = conta_numero_1 - conta_numero_2
     print(linha_1)
